@@ -11,7 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>14</java.version>
+		<java.version>16</java.version>
 	</properties>
 
 	<dependencies>
@@ -34,6 +34,12 @@
 			<artifactId>mockito-all</artifactId>
 			<version>1.10.19</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+		<dependency>
+   			 <groupId>org.apache.commons</groupId>
+   			 <artifactId>commons-csv</artifactId>
+    			<version>1.7</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>Trabalho_Maven</finalName>
@@ -45,7 +51,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
 					<configuration>
-						<release>14</release>
+						<release>16</release>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -87,3 +93,4 @@
 		</pluginManagement>
 	</build>
 </project>
+
