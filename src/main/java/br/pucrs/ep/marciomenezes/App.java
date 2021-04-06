@@ -38,10 +38,10 @@ public class App {
                 System.out.println("Marca : " + marca);
                 System.out.println("Cor : " + cor);
                 System.out.println("Categoria : " + categoria);
-                System.out.println("-------------------\n\n");
+                System.out.println("----------------------\n\n");
 
 
-                
+
 
 
             }
